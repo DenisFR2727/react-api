@@ -1,0 +1,121 @@
+
+.main{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 140px;
+
+position: absolute;
+width: 1024px;
+height: 2382px;
+left: 0px;
+top: 120px;
+}
+
+.main_img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./pexels-alexandr-podvalny-1227513.jpeg");
+    background-size: cover;
+    width: 1024px;
+    height: 650px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.text_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    
+    position: absolute;
+    left: 31.45%;
+    right: 31.45%;
+    top: 25.23%;
+    bottom: 25.08%;
+}
+.text_2block{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 21px;
+
+width: 380px;
+height: 257px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text_img h1{
+    width: 380px;
+    height: 80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.text_img p{
+    width: 380px;
+    height: 156px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  
+    text-align: center;
+    color: #FFFFFF;
+ 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.text_img button{
+    width: 100px;
+    height: 34px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button_block_img{
+    width: 100px;
+    height: 34px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button_img{
+    width: 100px;
+    height: 34px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: rgba(0, 0, 0, 0.87);
+    background: #F4E041;
+    border-radius: 80px;
+    border: none;
+}
+
+
+
+
