@@ -1,0 +1,70 @@
+.section_users{
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 904px;
+    height: 711px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    top: 790px;
+    left:60px;
+}
+
+ .h1_get_request{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+.block_users1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29px;
+    top: 90px;
+    width: 904px;
+    height: 537px;
+    flex-wrap:  wrap;
+    margin-top: 90px;
+}
+.card{
+    width: 282px;
+    height: 254px;
+    border-radius: 16px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 29px;
+    
+}
+.frame160{
+    width: 904px;
+    height: 254px;
+    display: flex;
+
+}
+.card .p1_card{
+    text-align: center;
+    margin-top: 20px;
+}
+.card_p_three{
+   margin-top: 20px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   overflow: hidden;
+}
+.button_show_more{
+    position: absolute;
+    left: 392px;
+    width: 120px;
+    height: 34px;
+    background: #F4E041;
+    border-radius: 80px;
+    border: none;
+}
