@@ -1,0 +1,39 @@
+.button_menu1{
+    width: 100px;
+    height: 34px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: rgb(244, 224, 65);
+    border: none;
+    border-radius: 34px;
+    font-style: Regular;
+    font-size: 16px; 
+}
+.button_menu2{
+    width: 100px;
+    height: 34px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: rgb(244, 224, 65);
+    border: none;
+    border-radius: 34px;
+    font-style: Regular;
+    font-size: 16px;
+    
+}
+.button_2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    left: 73.69%;
+    right: 5.92%;
+    top: 21.67%;
+    bottom: 21.67%;
+}
